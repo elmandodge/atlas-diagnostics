@@ -1,6 +1,7 @@
 ## Atlas Diagnostic Labs Official Website.
 
-visit :
+#### visit :
 
+https://spiffy-sherbet-e93d95.netlify.app/
 
-To view the Live Preview.
+#### To view the Live Preview.
