@@ -1,0 +1,121 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+*,
+*::before,
+*::after {
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#header #logo img {
+  min-width: 220px;
+  max-width: 21vw;
+}
+
+.grid-filter li a {
+  text-align: left;
+}
+
+.grid-filter li {
+  width: 100%;
+}
+
+#footer {
+  border-top: 0;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #0E9AA7;
+  border-color: #0E9AA7;
+}
+
+/* to make the english text inside every arabic test title Left-to-Right */
+.ps-4 {
+  text-align: left;
+}
+
+.testi-content-no-quotes {
+  text-align: left;
+  font-style: normal;
+  font-family: var(--fontfamily, 'Poppins', );
+  font-size: var(--basefontsize, 16px);
+}
+
+.testi-meta-no-tilda {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+abbr,
+address,
+strong,
+text {
+  cursor: default;
+}
+
+small {
+  font-size: 0.7rem;
+}
+
+.pine-atlas {
+  color: #0E9AA7;
+}
+
+#atlas-contact-info>a {
+  color: #fff;
+  cursor: pointer;
+}
+
+/* #atlas-logo-footer {
+  position: absolute;
+  top: 143px;
+} */
+
+/* @media only screen and (max-width:900px) {
+  #atlas-logo-footer {
+    position: absolute;
+    top: 200px;
+  }
+} */
+
+/* @media only screen and (min-width:600px) {
+  #atlas-logo-footer {
+    position: absolute;
+    top: 282px;
+  }
+} */
+
+#supafly {
+  font-size: 0.6rem;
+}
+
+#supafly>a {
+  color: #f9d321;
+}
+
+/* #tests-banner {
+  background-image: url(../images/banner-curve.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+} */
